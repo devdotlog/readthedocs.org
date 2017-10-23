@@ -1,14 +1,7 @@
 다운로드 API
 ==========
-
-.. http:get:: /api/v2/docsearch/
-
-    :string project: **Required**. The slug of a project. 
-    :string version: **Required**. The slug of the version for this project.
-    :string q: **Required**. The search query
     
- 
-``http:get:: /storages/download/{content_id}/?type``
+.. http:get:: /storages/download/{content_id}/?type
 
     :content_id: **Required**. 다운받으려는 패키지의 콘텐츠 Id
     :type: **Required**. 다운 받으려는 종류(package, arcontents, training, application)

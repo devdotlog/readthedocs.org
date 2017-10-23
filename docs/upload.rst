@@ -9,9 +9,7 @@ Ticket
 전력설비 콘텐츠
 ~~~~~~~~~~
 
-.. http:post::  /storages/application/{ticket}
-
-``http:post::  /storages/ticket/standard``
+.. http:post::  /storages/ticket/standard
 
   form-data
   
@@ -40,7 +38,7 @@ Response:
 카테고리 콘텐츠
 ~~~~~~~~~~~~
 
-``..http:post::  /storages/ticket/standard``
+.. http:post::  /storages/ticket/standard
 
   form-data
   
@@ -70,7 +68,7 @@ Response:
 AR 콘텐츠
 ~~~~~~~~
 
-``http:post:: /storages/ticket/ar``
+.. http:post:: /storages/ticket/ar
 
 .. sourcecode:: js
 
@@ -134,7 +132,7 @@ Response:
 AR/VR 응용 콘텐츠
 ~~~~~~~~~~~~~~~
 
-``http:post:: /storages/ticket/application``
+.. http:post:: /storages/ticket/application
 
   form-data
   
@@ -162,7 +160,7 @@ Response:
 이미지
 ------
 
-``http:post:: /storages/images/{ticket}``
+.. http:post:: /storages/images/{ticket}
 
   :ticket: **Required**. 콘텐츠를 업로드위해 발급 받은 ticket.
   
@@ -190,9 +188,7 @@ Response:
 전력설비, 카테고리 콘텐츠
 ~~~~~~~~~~~~~~~~~~~~
 
-.. http:post:: /tttt
-
-``http:post::  /storages/packages/{ticket}``
+.. http:post:: /storages/packages/{ticket}
   
   :ticket: **Required**. ticket.
   
@@ -216,7 +212,7 @@ Response:
 AR 콘텐츠
 ~~~~~~~~
 
-``http:post:: /storages/arcontents/{ticket}``
+.. http:post:: /storages/arcontents/{ticket}
   
   :ticket: **Required**. ticket.
   
@@ -240,7 +236,7 @@ Response:
 AR 콘텐츠의 training
 ~~~~~~~~~~~~~~~~~~
 
-``http:post:: /storages/training/{ticket}``
+.. http:post:: /storages/training/{ticket}
   
   :ticket: **Required**. ticket.
   
@@ -264,7 +260,7 @@ Response:
 AR/VR 응용 콘텐츠
 ~~~~~~~~~~~~~~~
 
-``http:post::  /storages/application/{ticket}``
+.. http:post::  /storages/application/{ticket}
   
   :ticket: **Required**. ticket.
   

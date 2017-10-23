@@ -3,8 +3,6 @@
 
 .. http:get::  /menus
 
-``http:get::  /menus``
-
 전력표준 메뉴 정보를 요청하는 API
 
 Response:
